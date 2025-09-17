@@ -1,0 +1,42 @@
+[2025-09-09 16:15:12] DB Error: SQLSTATE[HY000] [1049] Unknown database 's'
+[2025-09-09 16:15:53] DB Error: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES)
+[2025-09-09 18:23:40] Registration failed: Email is already registered.
+[2025-09-09 18:24:21] Registration failed: Invalid email format
+[2025-09-09 18:24:27] Registration failed: Password must be at least 6 characters long
+[2025-09-09 18:25:21] Registration failed: Email is already registered.
+[2025-09-10 18:00:27] Registration failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list'
+[2025-09-10 18:00:30] Registration failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list'
+[2025-09-10 18:01:07] Registration failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list'
+[2025-09-10 18:02:04] Registration failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list'
+[2025-09-10 18:02:16] Registration failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list'
+[2025-09-10 18:02:28] Registration failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list'
+[2025-09-10 18:02:44] Registration failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list'
+[2025-09-10 18:02:53] Registration failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list'
+[2025-09-10 18:04:56] Registration failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list'
+[2025-09-10 18:05:07] Registration failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity' in 'field list'
+[2025-09-10 18:07:44] Registration failed: Email is already registered.
+[2025-09-10 18:07:56] Registration failed: Age must be a valid integer between 10 and 120
+[2025-09-10 18:08:19] Registration failed: Height must be between 50 and 300 cm
+[2025-09-10 18:08:48] Registration failed: Email is already registered.
+[2025-09-17 12:41:25] Login failed: Email is required
+[2025-09-17 12:42:22] Login failed: Email is required
+[2025-09-17 12:42:25] Login failed: Email is required
+[2025-09-17 12:42:25] Login failed: Email is required
+[2025-09-17 12:42:26] Login failed: Email is required
+[2025-09-17 12:42:26] Login failed: Email is required
+[2025-09-17 12:42:27] Login failed: Email is required
+[2025-09-17 12:42:27] Login failed: Email is required
+[2025-09-17 12:42:27] Login failed: Email is required
+[2025-09-17 12:42:27] Login failed: Email is required
+[2025-09-17 12:42:56] Login failed: Email is required
+[2025-09-17 12:44:13] Login failed: Email is required
+[2025-09-17 12:44:16] Login failed: Email is required
+[2025-09-17 12:47:44] Registration failed: Age must be a valid integer between 10 and 120
+[2025-09-17 12:59:07] Registration failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2025-09-17 13:00:57] Registration failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2025-09-17 13:02:53] Registration failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2025-09-17 13:03:48] <DB ERROR> Registration failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2025-09-17 13:11:12] Login failed: Make sure your credentials are correct!
+[2025-09-17 13:11:28] Login failed: Make sure your credentials are correct!
+[2025-09-17 13:17:23] Login failed: Make sure your credentials are correct!
+[2025-09-17 14:04:46] Edit profile failed: Height must be between 50 and 300 cm

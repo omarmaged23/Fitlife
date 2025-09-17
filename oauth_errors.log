@@ -1,0 +1,2 @@
+[2025-09-10 20:35:51] Callback Exception: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'google_id' at row 1
+[2025-09-10 20:37:00] Callback Exception: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'google_id' at row 1

@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /native/
+
+    # Skip if request already points to public/ to avoid loops
+    RewriteRule ^public/ - [L]
+
+    # If the request maps to a file/dir inside native/public, serve that
+    RewriteCond %{REQUEST_URI} ^/native/(.*)$
+    RewriteCond %{DOCUMENT_ROOT}/native/public/%1 -f [OR]
+    RewriteCond %{DOCUMENT_ROOT}/native/public/%1 -d
+    RewriteRule ^(.*)$ public/%1 [L]
+
+    # Otherwise route everything to public/index.php (front controller)
+    RewriteRule ^(.*)$ public/index.php [L,QSA]
+</IfModule>
