@@ -91,7 +91,7 @@ class AuthController
             // Insert user data
             $stmt = $this->conn->prepare("INSERT INTO user_data (user_id, age, gender, goal, height, weight, activity_level) VALUES (:user_id, :age, :gender, :goal, :height, :weight, :activity)");
             $stmt->bindValue(':user_id', $userId, \PDO::PARAM_INT);
-            $stmt->bindValue(':ages', $age);
+            $stmt->bindValue(':age', $age);
             $stmt->bindValue(':gender', $gender);
             $stmt->bindValue(':goal', $goal);
             $stmt->bindValue(':height', $height);
